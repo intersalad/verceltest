@@ -6,20 +6,14 @@ import { ReactComponent as TypescriptLogo } from './assets/typescript.svg';
 import { ReactComponent as ScssLogo } from './assets/scss.svg';
 import styles from './App.module.scss';
 
+
+
 function App() {
     const [count, setCount] = useState(0);
 
     return (
         <div className={styles.App}>
             <div>
-                <a href="https://vitejs.dev" target="_blank">
-                    <ViteLogo
-                        height="6em"
-                        width="6em"
-                        className={classNames(styles.logo)}
-                        title="Vite logo"
-                    />
-                </a>
                 <a href="https://reactjs.org" target="_blank">
                     <ReactLogo
                         height="6em"
