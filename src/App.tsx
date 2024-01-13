@@ -5,7 +5,10 @@ import { ReactComponent as ViteLogo } from './assets/vite.svg';
 import { ReactComponent as TypescriptLogo } from './assets/typescript.svg';
 import { ReactComponent as ScssLogo } from './assets/scss.svg';
 import styles from './App.module.scss';
+import { createClient } from '@supabase/supabase-js'
 
+// Create a single supabase client for interacting with your database
+const supabase = createClient('https://ocalnnljxiorkuhmxihp.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9jYWxubmxqeGlvcmt1aG14aWhwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDQzMjcyMDksImV4cCI6MjAxOTkwMzIwOX0.HNoAukOyyqKRFx2AGBscRBe1uaqm2l2UkXQRMYM04GI')
 
 
 function App() {
