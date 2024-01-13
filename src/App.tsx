@@ -48,7 +48,7 @@ function App() {
             <div className={styles.card}>
                 <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
                 <p>
-                    Edit <code>src/App.tsx</code> and save to test HMR
+                    вроде работает
                 </p>
             </div>
             <p className={styles['read-the-docs']}>
